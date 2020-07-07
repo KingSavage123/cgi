@@ -1,0 +1,244 @@
+body {
+	font-size: 20px;
+	box-sizing: border-box;
+	font-family: 'Teko', sans-serif;
+}
+
+/****Header****/
+#header-nav {
+	border-radius: 0;
+	border: 0;
+	background-color: white;
+}
+
+#nav-list {
+	float: right;
+}
+
+#nav-list a {
+	color: #0000b3;
+	font-size: 2.5vw;
+	font-weight: 600;
+	text-align: center;
+	text-shadow: black -.5px 1px 1px;
+}
+
+#nav-list a:hover {
+	color: #80b3ff;
+}
+
+#header-nav button.navbar-toggler {
+	border: 1px solid #0000b3;
+	margin: 30px 50px;
+}
+
+/****End Header****/
+
+/****Main Content****/
+#carouselExampleCaptions .carousel-indicators {
+	padding-bottom: 20px;
+	bottom: -70px;
+}
+
+#carouselExampleCaptions .carousel-inner {
+	box-shadow: 0 0 5px 5px white;
+	border-radius: 5px;
+}
+
+#main-container {
+	background-color: #145ff5;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+/****End Maint Content****/
+
+/****Footer****/
+
+footer {
+	background-color: #0000b3;
+	height: 100%;
+}
+
+#copyright span{
+	color: #ffffff;
+}
+
+#copyright {
+	padding-top: 100px;
+}
+
+/****End Footer****/
+
+/****Products Content****/
+#mainContent {
+	margin-top: 30px;
+	font-size: 1.2em;
+}
+
+#product-hr {
+	background-color: black;
+	height: 2px;
+	border-radius: 1px;
+}
+/****Products Content End****/
+
+/*******Large Devices*******/
+@media (min-width: 1200px) {
+	
+	/****Header****/
+	#logo-img {
+		background: url("../CGI Images for business presentation/Logo Large.jpg") no-repeat;
+		width: 300px;
+		height: 140px;
+		margin: 10 15px 10 15px;
+	}
+
+	#nav-list .nav-item {
+		margin-right: 40px;
+	}
+	/****End Header****/
+
+	/****Main Content****/
+
+	/****End Main Content****/
+
+	/****Footer****/	
+	#copyright {
+		padding-top: 80px;
+	}
+
+	/****End Footer****/
+
+}
+
+/*******Medium Devices******/
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	/****Header****/
+	#logo-img {
+		background: url("../CGI Images for business presentation/Logo Med.jpg") no-repeat;
+		width: 200px;
+		height: 100px;
+		margin: 10px 15px 10px 15px;
+	}
+
+	#nav-list {
+		margin: 40px -10px;
+	}
+	
+	#nav-list .nav-item {
+		margin-right: 30px;
+	}
+	/****End Header****/
+
+	/****Main Content****/
+
+	/****End Main Content****/
+
+	/****Footer****/
+	#copyright {
+		padding-top: 80px;
+	}
+
+	/****End Footer****/
+
+}
+
+/*******Small Devices******/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	/****Header****/
+	#logo-img {
+		background: url("../CGI Images for business presentation/Logo Small.jpg") no-repeat;
+		width: 150px;
+		height: 80px;
+		margin: 10px 15px 10px 10px;
+	}
+
+	#nav-list {
+		margin: 30px -10px;
+	}
+
+	#nav-list .nav-item {
+		margin-right: 15px;
+	}
+	/****End Header****/
+
+	/****Main Content****/
+
+	/****End Main Content****/
+
+	/****Footer****/
+	#copyright {
+		padding-top: 50px;
+		font-size: .8em;
+	}
+
+	/****End Footer****/
+
+}
+
+/*******X-Small Devices******/
+@media (min-width: 480px) and (max-width: 767px) {
+	
+	/****Header****/
+	#logo-img {
+		background: url("../CGI Images for business presentation/Logo Small.jpg") no-repeat;
+		width: 150px;
+		height: 80px;
+		margin: 10px 15px 10px 10px;
+	}
+
+	#nav-list a {
+		font-size: 4vw;
+	}
+	/****End Header****/
+
+	/****Main Content****/
+
+	/****End Main Content****/
+
+	/****Footer****/
+	#copyright {
+		padding-top: 50px;
+		font-size: .7em;
+	}
+	/****End Footer****/
+}
+
+/*******Super X-Small Devices******/
+@media (max-width: 479px) {
+	
+	/****Header****/
+	#logo-img {
+		background: url("../CGI Images for business presentation/Logo X-Small.jpg") no-repeat;
+		width: 100px;
+		height: 50px;
+		margin: 10px 15px 10px 10px;
+	}
+
+	#nav-list a {
+		font-size: 4vw;
+	}
+
+	#header-nav button.navbar-toggler {
+		padding: 0.15rem 0.50rem;
+  		font-size: 1rem;
+	}
+	/****End Header****/
+
+	/****Main Content****/
+
+	/****End Main Content****/
+
+	/****Footer****/
+	#copyright {
+		padding-top: 40px;
+		font-size: .6em;
+	}
+
+	footer {
+		height: 190px;
+	}
+	/****End Footer****/
+}
